@@ -28,7 +28,7 @@ The host OS can only see this app receives and sends udp packets, but don't know
 Based on my current plan, the software stack of my nodes looks like this:
 ![Node](https://raw.githubusercontent.com/KusakabeSi/RootlessRouter-UML/main/pics/Node.png)
 
-As you can see, there are no componient are running in the kernel.  
+As you can see, there are no component running in the kernel mode.
 
 I will host multiple node to form a cluster, like this
 ![Node](https://raw.githubusercontent.com/KusakabeSi/RootlessRouter/main/pics/Overview.png)
