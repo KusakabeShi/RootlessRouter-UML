@@ -1,9 +1,25 @@
 # RootlessRouter-UML
-The continue of https://github.com/KusakabeSi/RootlessRouter
-A boarder gateway in user space only, based on User mode linux
 
-All my nodes with this architecture.  
-Choose the nearest node to you, then click **Peer with me** button in the top left corner to peering with me if you are also a DN42 player.
+The continue of https://github.com/KusakabeSi/RootlessRouter, but use User mode linux instead of VPP  
+
+This is a project called "Rootless Router".  
+
+It can establish multiple wireguard sessions with other DN42 players, but all the stacks can run as a normal user without root / in an unprivileged docker container.
+This program receives `wireguard encrypted udp packet` -> `decrypt it` -> `do bgp routing` -> `encrypt` -> `send to another peer`, all processes are done in the userspace.
+
+The host OS can only see this app receives and sends udp packets, but doesn't know it established multiple BGP sessions to other people and routing for it.
+
+Based on my current plan, the software stack of my nodes looks like this:
+![Node](https://raw.githubusercontent.com/KusakabeSi/RootlessRouter-UML/main/pics/Node.png)
+
+As you can see, there are no componient are running in the kernel.  
+
+I will host multiple node to form a cluster, like this
+![Node](https://raw.githubusercontent.com/KusakabeSi/RootlessRouter/main/pics/Overview.png)
+
+Here is the list of all my nodes with this architecture.  
+Please consider to peer with me if you are a DN42 player, too!  
+Choose the nearest node to you, then click **Peer with me** button in the top left corner to peer with me.
 1. https://dn42au.azurewebsites.net
 1. https://dn42fr.azurewebsites.net
 1. https://dn42hk.azurewebsites.net
@@ -13,3 +29,22 @@ Choose the nearest node to you, then click **Peer with me** button in the top le
 1. https://dn42br.azurewebsites.net
 1. https://dn42ca.azurewebsites.net
 1. https://dn42uae.azurewebsites.net
+
+Related projects:
+
+1. https://github.com/KusakabeSi/RootlessRouterDocker
+1. https://github.com/KusakabeSi/EtherGuard-VPN
+1. https://github.com/KusakabeSi/DN42-AutoPeer
+1. https://github.com/KusakabeSi/slirpnetstack
+1. https://github.com/KusakabeSi/bird-lg-go
+1. https://github.com/KusakabeSi/UML-Config
+
+
+Decprecated:
+1. https://github.com/KusakabeSi/bird-vpp-route-syncer
+1. https://github.com/KusakabeSi/wireguard-go-vpp
+1. https://github.com/KusakabeSi/RootlessRouter
+1. https://github.com/KusakabeSi/BIRD-vpp
+1. https://github.com/KusakabeSi/vpp
+Private:
+1. https://github.com/KusakabeSi/RRstate
