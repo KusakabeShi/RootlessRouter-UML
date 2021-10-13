@@ -2,7 +2,21 @@
 
 The continue of https://github.com/KusakabeSi/RootlessRouter, but use User mode linux instead of VPP  
 
-This is a project called "Rootless Router".  
+# Node list
+
+Here is the list of all my nodes with this architecture.  
+**Please consider to peer with me if you are a DN42 player!**  
+Choose the nearest node to you, then click **Peer with me** button in the top left corner to peer with me.
+1. https://dn42usw.azurewebsites.net
+1. https://dn42use.azurewebsites.net
+1. https://dn42hk.azurewebsites.net
+1. https://dn42jpe.azurewebsites.net
+1. https://dn42sg.azurewebsites.net
+1. https://dn42au.azurewebsites.net
+1. https://dn42fr.azurewebsites.net
+1. https://dn42br.azurewebsites.net
+1. https://dn42ca.azurewebsites.net
+1. https://dn42uae.azurewebsites.net
 
 It can establish multiple wireguard sessions with other DN42 players, but all the stacks can run as a normal user without root / in an unprivileged docker container.
 This program receives `wireguard encrypted udp packet` -> `decrypt it` -> `do bgp routing` -> `encrypt` -> `send to another peer`, all processes are done in the userspace.
@@ -17,19 +31,6 @@ As you can see, there are no componient are running in the kernel.
 I will host multiple node to form a cluster, like this
 ![Node](https://raw.githubusercontent.com/KusakabeSi/RootlessRouter/main/pics/Overview.png)
 
-Here is the list of all my nodes with this architecture.  
-Please consider to peer with me if you are a DN42 player, too!  
-Choose the nearest node to you, then click **Peer with me** button in the top left corner to peer with me.
-1. https://dn42usw.azurewebsites.net
-1. https://dn42use.azurewebsites.net
-1. https://dn42hk.azurewebsites.net
-1. https://dn42jpe.azurewebsites.net
-1. https://dn42sg.azurewebsites.net
-1. https://dn42au.azurewebsites.net
-1. https://dn42fr.azurewebsites.net
-1. https://dn42br.azurewebsites.net
-1. https://dn42ca.azurewebsites.net
-1. https://dn42uae.azurewebsites.net
 
 Related projects:
 
