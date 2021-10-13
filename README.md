@@ -20,12 +20,13 @@ I will host multiple node to form a cluster, like this
 Here is the list of all my nodes with this architecture.  
 Please consider to peer with me if you are a DN42 player, too!  
 Choose the nearest node to you, then click **Peer with me** button in the top left corner to peer with me.
-1. https://dn42au.azurewebsites.net
-1. https://dn42fr.azurewebsites.net
+1. https://dn42usw.azurewebsites.net
+1. https://dn42use.azurewebsites.net
 1. https://dn42hk.azurewebsites.net
 1. https://dn42jpe.azurewebsites.net
-1. https://dn42use.azurewebsites.net
-1. https://dn42usw.azurewebsites.net
+1. https://dn42sg.azurewebsites.net
+1. https://dn42au.azurewebsites.net
+1. https://dn42fr.azurewebsites.net
 1. https://dn42br.azurewebsites.net
 1. https://dn42ca.azurewebsites.net
 1. https://dn42uae.azurewebsites.net
