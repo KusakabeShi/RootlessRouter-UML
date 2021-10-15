@@ -18,6 +18,9 @@ Choose the nearest node to you, then click **Peer with me** button in the top le
 1. https://dn42ca.azurewebsites.net
 1. https://dn42uae.azurewebsites.net
 
+## Node Status
+https://42status.kskb.eu.org
+
 ## Architecture
 
 This router can establish multiple wireguard sessions with other DN42 players, but all the tasks can run as a normal user without root / in an unprivileged docker container.
