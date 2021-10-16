@@ -13,7 +13,7 @@ Choose the nearest node to you, then click **Peer with me** button in the top le
 1. https://dn42jpe.azurewebsites.net
 1. https://dn42sg.azurewebsites.net
 1. https://dn42au.azurewebsites.net
-1. https://dn42fr.azurewebsites.net
+1. https://dn42ch.azurewebsites.net
 1. https://dn42br.azurewebsites.net
 1. https://dn42ca.azurewebsites.net
 1. https://dn42uae.azurewebsites.net
