@@ -7,16 +7,19 @@ The continue of https://github.com/KusakabeSi/RootlessRouter, but use User mode 
 Here is the list of all my nodes with this architecture.  
 **Please consider to peer with me if you are a DN42 player!**  
 Choose the nearest node to you, then click **Peer with me** button in the top left corner to peer with me.
-1. https://dn42usw.azurewebsites.net
-1. https://dn42use.azurewebsites.net
-1. https://dn42hk.azurewebsites.net
-1. https://dn42jpe.azurewebsites.net
-1. https://dn42sg.azurewebsites.net
-1. https://dn42au.azurewebsites.net
-1. https://dn42ch.azurewebsites.net
-1. https://dn42br.azurewebsites.net
-1. https://dn42ca.azurewebsites.net
-1. https://dn42uae.azurewebsites.net
+
+URL                              | Location  | 
+---------------------------------|-------|
+https://dn42usw.azurewebsites.net|United States California
+https://dn42use.azurewebsites.net|United States Virginia
+https://dn42hk.azurewebsites.net |Hong Kong
+https://dn42jpe.azurewebsites.net|Japan Tokyo
+https://dn42sg.azurewebsites.net |Singapore
+https://dn42au.azurewebsites.net |Australia Canberra
+https://dn42ch.azurewebsites.net |Switzerland Zürich
+https://dn42br.azurewebsites.net |Brazil São Paulo
+https://dn42ca.azurewebsites.net |Canada Toronto
+https://dn42uae.azurewebsites.net|United Arab Emirates Dubai
 
 ## Node Status
 https://42status.kskb.eu.org
