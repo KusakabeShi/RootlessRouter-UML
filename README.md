@@ -12,11 +12,11 @@ URL                              | Location  |
 ---------------------------------|-------|
 https://dn42usw.azurewebsites.net|United States California
 https://dn42use.azurewebsites.net|United States Virginia
-~~https://dn42hk.azurewebsites.net~~ |Hong Kong (Not ready for peer)
 https://dn42jpe.azurewebsites.net|Japan Tokyo
 https://dn42sg.azurewebsites.net |Singapore
 https://dn42au.azurewebsites.net |Australia Canberra
 https://dn42ch.azurewebsites.net |Switzerland Zürich
+https://dn42uk.azurewebsites.net |United Kingdom London
 https://dn42br.azurewebsites.net |Brazil São Paulo
 https://dn42ca.azurewebsites.net |Canada Toronto
 https://dn42uae.azurewebsites.net|United Arab Emirates Dubai
