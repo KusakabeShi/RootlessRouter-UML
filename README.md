@@ -10,7 +10,6 @@ Choose the nearest node to you, then click **Peer with me** button in the top le
 
 URL                              | Location  | 
 ---------------------------------|-------|
-
 https://dn42jpe.azurewebsites.net|Japan Tokyo
 https://dn42sg.azurewebsites.net |Singapore
 https://dn42ch.azurewebsites.net |Switzerland Zürich
