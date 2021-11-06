@@ -6,7 +6,7 @@ The continue of https://github.com/KusakabeSi/RootlessRouter, but use User mode 
 
 Here is the list of all my nodes with this architecture.  
 **Please consider to peer with me if you are a DN42 player!**  
-Choose the nearest node to you, then click **Peer with me** button in the top left corner to peer with me.
+Choose the nearest node to you, then click **Auto Peer** button to peer with me.
 
 URL                              | Location  | 
 ---------------------------------|-------|
