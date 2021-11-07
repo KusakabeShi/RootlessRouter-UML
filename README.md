@@ -16,8 +16,8 @@ https://dn42ch.azurewebsites.net |Switzerland Zürich
 https://dn42uk.azurewebsites.net |United Kingdom London
 https://dn42ca.azurewebsites.net |Canada Toronto
 https://dn42au.azurewebsites.net |Australia Canberra
-https://dn42br.azurewebsites.net |Brazil São Paulo
 https://dn42uae.azurewebsites.net|United Arab Emirates Dubai
+https://dn42br.azurewebsites.net |Brazil São Paulo(Not ready for peer)
 https://dn42usw.azurewebsites.net|United States California(Not ready for peer)
 https://dn42hk.azurewebsites.net |Hong Kong(Not ready for peer)
 
