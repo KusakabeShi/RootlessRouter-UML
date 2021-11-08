@@ -11,12 +11,12 @@ Choose the nearest node to you, then click **Auto Peer** button to peer with me.
 URL                              | Location  | 
 ---------------------------------|-------|
 https://dn42jpe.azurewebsites.net|Japan Tokyo
-https://dn42sg.azurewebsites.net |Singapore
 https://dn42ch.azurewebsites.net |Switzerland Zürich
 https://dn42uk.azurewebsites.net |United Kingdom London
 https://dn42ca.azurewebsites.net |Canada Toronto
 https://dn42au.azurewebsites.net |Australia Canberra
 https://dn42uae.azurewebsites.net|United Arab Emirates Dubai
+https://dn42sg.azurewebsites.net |Singapore(Not ready for peer)
 https://dn42br.azurewebsites.net |Brazil São Paulo(Not ready for peer)
 https://dn42usw.azurewebsites.net|United States California(Not ready for peer)
 https://dn42hk.azurewebsites.net |Hong Kong(Not ready for peer)
