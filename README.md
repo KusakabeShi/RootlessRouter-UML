@@ -27,7 +27,7 @@ https://42status.kskb.eu.org
 
 ## What is this?
 
-DN42 is a big dynamic VPN, which employs Internet technologies (BGP, whois database, DNS, etc). Participants connect to each other using network tunnels (GRE, OpenVPN, Tinc, IPsec, Wireguard) and exchange routes thanks to the BGP. Dn42 can be used to learn networking and to connect private networks, such as hackerspaces or community networks. But above all, experimenting with routing in dn42 is fun!
+DN42 is a big dynamic  VPN, which employs Internet technologies (BGP, whois database, DNS, etc) for educational and amateur scientific research purposes. Participants connect to each other using network tunnels (GRE, OpenVPN, Tinc, IPsec, Wireguard) and exchange routes thanks to the BGP. Dn42 can be used to learn networking and to connect private networks, such as hackerspaces or community networks. But above all, experimenting with routing in dn42 is fun!
 
 The first thing we need to do is setup a router which running a BGP daemon such as BIRD/FRRouting in it. Most people choose a regular linux machine as their router. In this setup, we enable the `ip_forward` option in linux kernel to make it become a router, then the BGP daemon exahange routes with other peer and write all route tables to the kernel. Which means we need the root permission to setup all things.
 
