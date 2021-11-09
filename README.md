@@ -33,7 +33,7 @@ The first thing we need to do is setup a router which running a BGP daemon such 
 
 But I'm thinking, do we really need that? Technically, we are just receives `wireguard encrypted udp packet` -> `decrypt it` -> `do BGP routing` -> `encrypt` -> `send to another peer`. Do we need root permission to do that? I don't think so. That's why this project here.
 
-This `RootlessRouter` aims to build a software stack which can establish multiple wireguard sessions with other DN42 players, but all processes are done in the userspace. So that the whole stack can run as a normal user without root or in an unprivileged docker container.
+This `RootlessRouter` project aims to build a software stack which can establish multiple wireguard sessions with other DN42 players and act as a boarder router for them, but all processes are done in the userspace. So that the whole router can run as a normal user without root or in an unprivileged docker container.
 
 ## Architecture
 
