@@ -29,11 +29,11 @@ https://42status.kskb.eu.org
 
 DN42 is a big dynamic VPN, which employs Internet technologies (BGP, whois database, DNS, etc). Participants connect to each other using network tunnels (GRE, OpenVPN, Tinc, IPsec, Wireguard) and exchange routes thanks to the BGP. Dn42 can be used to learn networking and to connect private networks, such as hackerspaces or community networks. But above all, experimenting with routing in dn42 is fun!
 
-The first thing we need to do is setup a router which running a BGP daemon such as BIRD/FRRouting. Most people choose regular linux machine as their router. In this setup, we enabled `ip_forward` feature to make it become a router, then BGP daemon will write route tables to the kernel. Which means we need the root permission to setup all things.
+The first thing we need to do is setup a router which running a BGP daemon such as BIRD/FRRouting in it. Most people choose a regular linux machine as their router. In this setup, we enable the `ip_forward` option in linux kernel to make it become a router, then the BGP daemon exahange routes with other peer and write all route tables to the kernel. Which means we need the root permission to setup all things.
 
-But I'm thinking, do we really need it? Because technically, we are just receives `wireguard encrypted udp packet` -> `decrypt it` -> `do bgp routing` -> `encrypt` -> `send to another peer`. Do we need root permission to do that? I don't think so. That's why this project here.
+But I'm thinking, do we really need that? Technically, we are just receives `wireguard encrypted udp packet` -> `decrypt it` -> `do BGP routing` -> `encrypt` -> `send to another peer`. Do we need root permission to do that? I don't think so. That's why this project here.
 
-This router can establish multiple wireguard sessions with other DN42 players, but all processes are done in the userspace. So that the tasks can run as a normal user without root or in an unprivileged docker container.
+This `RootlessRouter` aims to create a software stack which can establish multiple wireguard sessions with other DN42 players, but all processes are done in the userspace. So that the whole stack can run as a normal user without root or in an unprivileged docker container.
 
 ## Architecture
 
