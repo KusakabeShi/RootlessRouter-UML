@@ -5,7 +5,7 @@ The continue of https://github.com/KusakabeSi/RootlessRouter, but use User mode 
 ## Node list
 
 Here is the list of all my nodes with this architecture.  
-**Please consider to peer with me if you are a DN42 player!**  
+**Please consider to peer with me if you are a [DN42](https://lantian.pub/en/article/modify-website/dn42-experimental-network-2020.lantian/) player!**  
 Choose the nearest node to you, then click **Auto Peer** button to peer with me.
 
 URL                              | Location  | Accept New Peer
@@ -24,12 +24,18 @@ https://dn42hk.azurewebsites.net |Hong Kong| X
 ## Node Status
 https://42status.kskb.eu.org
 
+
+## What is this?
+
+DN42 is a big dynamic VPN, which employs Internet technologies (BGP, whois database, DNS, etc). Participants connect to each other using network tunnels (GRE, OpenVPN, Tinc, IPsec, Wireguard) and exchange routes thanks to the BGP. Dn42 can be used to learn networking and to connect private networks, such as hackerspaces or community networks. But above all, experimenting with routing in dn42 is fun!
+
+The first thing we need to do is setup a router which running a BGP daemon such as BIRD/FRRouting. Most people choose regular linux machine as their router. In this setup, we enabled `ip_forward` feature to make it become a router, then BGP daemon will write route tables to the kernel. Which means we need the root permission to setup all things.
+
+But I'm thinking, do we really need it? Because technically, we are just receives `wireguard encrypted udp packet` -> `decrypt it` -> `do bgp routing` -> `encrypt` -> `send to another peer`. Do we need root permission to do that? I don't think so. That's why this project here.
+
+This router can establish multiple wireguard sessions with other DN42 players, but all processes are done in the userspace. So that the tasks can run as a normal user without root or in an unprivileged docker container.
+
 ## Architecture
-
-This router can establish multiple wireguard sessions with other DN42 players, but all the tasks can run as a normal user without root / in an unprivileged docker container.
-The program receives `wireguard encrypted udp packet` -> `decrypt it` -> `do bgp routing` -> `encrypt` -> `send to another peer`, all processes are done in the userspace.
-
-The host OS can only see this app receives and sends udp packets, but don't know it established multiple BGP sessions to other people and routing for it.
 
 Based on my current plan, the software stack of my nodes looks like this:
 ![Node](https://raw.githubusercontent.com/KusakabeSi/RootlessRouter-UML/main/pics/Node.png)
