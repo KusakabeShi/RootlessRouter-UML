@@ -18,7 +18,7 @@ https://dn42uae.azurewebsites.net|United Arab Emirates Dubai| O
 https://dn42sg.azurewebsites.net |Singapore| X
 https://dn42br.azurewebsites.net |Brazil São Paulo| X
 https://dn42uk.azurewebsites.net |United Kingdom London| X
-https://dn42usw.azurewebsites.net|United States California| X
+https://dn42usw.azurewebsites.net|United States Washington| X
 https://dn42hk.azurewebsites.net |Hong Kong| X
 
 ## Node Status
