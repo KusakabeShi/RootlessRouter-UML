@@ -8,18 +8,8 @@ Here is the list of all my nodes with this architecture.
 **Please consider to peer with me if you are a [DN42](https://lantian.pub/en/article/modify-website/dn42-experimental-network-2020.lantian/) player!**  
 Choose the nearest node to you, then click **Auto Peer** button to peer with me.
 
-URL                              | Location  | Accept New Peer
----------------------------------|-------|-------|
-https://dn42jpe.azurewebsites.net|Japan Tokyo| O
-https://dn42ch.azurewebsites.net |Switzerland Zürich| O
-https://dn42ca.azurewebsites.net |Canada Toronto| O
-https://dn42au.azurewebsites.net |Australia Canberra| O
-https://dn42uae.azurewebsites.net|United Arab Emirates Dubai| O
-https://dn42sg.azurewebsites.net |Singapore| X
-https://dn42br.azurewebsites.net |Brazil São Paulo| X
-https://dn42uk.azurewebsites.net |United Kingdom London| X
-https://dn42usw.azurewebsites.net|United States Washington| X
-https://dn42hk.azurewebsites.net |Hong Kong| X
+## Peering info
+https://dn42.kskb.eu.org/
 
 ## Node Status
 https://42status.kskb.eu.org
